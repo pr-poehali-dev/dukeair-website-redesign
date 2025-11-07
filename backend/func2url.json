@@ -1,0 +1,6 @@
+{
+  "hotels": "https://functions.poehali.dev/7f1961a0-8bca-41c0-94c3-ee1917b5bae6",
+  "auth": "https://functions.poehali.dev/db4e48f1-2c29-494c-bc01-ecf07acda224",
+  "flights": "https://functions.poehali.dev/729ab0ec-4844-4b61-aaa5-651692729e7a",
+  "bookings": "https://functions.poehali.dev/0c3ecd48-c101-4917-892f-403c995c6ece"
+}

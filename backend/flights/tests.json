@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Search flights between cities",
+      "method": "GET",
+      "path": "/?from=Москва&to=Стамбул",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "count": "number"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}

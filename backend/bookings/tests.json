@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Get user bookings",
+      "method": "GET",
+      "path": "/?user_id=1",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "bookings": "array"
+      },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Create new booking",
+      "method": "POST",
+      "body": {
+        "user_id": 1,
+        "booking_type": "flight",
+        "flight_id": 1,
+        "passenger_first_name": "John",
+        "passenger_last_name": "Doe",
+        "passenger_passport": "1234567890",
+        "travel_date": "2025-11-20",
+        "seat_number": "12A",
+        "total_price": 12500
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
